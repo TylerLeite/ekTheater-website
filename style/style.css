@@ -1,0 +1,162 @@
+@charset UTF-8;
+
+/* body */
+body{
+	font: 14px Helvetica, sans-serif;
+	background: url("../images/graphics/background.jpg") repeat scroll 0 0 #121210;;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+/* banner */
+#banner{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 1080px;
+	height: 100px;
+}
+
+#contactImages{
+	position: relative; 
+	left: 177px;
+	top: 78px;
+}
+
+/* wrapper */
+#wrapper{
+	margin: auto;
+	width: 1080px;
+	background-color: #FFF;
+}
+
+/* bodyArea */
+#wrapper #bodyArea, #wrapper #bodyArea a, #wrapper #bodyArea a:visited{
+	font: 18px helvetica, sans-serif;
+	color: #4D494A;
+	text-decoration: none;
+	background-color: #FFF;
+}
+
+#wrapper #bodyArea p{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;	
+	text-justify: inter-word;
+}
+
+#wrapper #bodyArea ul{
+	margin-left: 50px;
+}
+
+/* imageHolder */
+#wrapper #bodyArea #imageHolder{
+	margin-right: auto;
+	margin-left: auto;
+	width: 920px;
+}
+#wrapper #bodyArea  #imageHolder img{
+	border: 5px solid #333;
+	border-radius: 25px;
+	color: #333;
+	margin: 20px 10px 20px 10px;
+}
+#wrapper #bodyArea #imageHolder img:hover{
+	border: 5px solid #666;
+	border-radius: 25px;
+	color: #FFF;
+	margin: 20px, 15px, 20px, 15px;
+}
+
+/* instructions */
+#wrapper #bodyArea #instructions p{
+	font-size: 14px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* paragraphs */
+p.bigTitle{
+	font: 18px helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+p.title{
+	font: 16px helvetica, sans-serif;
+	font-weight: bold;
+}
+p.desc{
+	font: 14px helvetica, sans-serif;
+	text-indent: 25px;
+	padding-bottom: 10px;
+	
+}
+p.floatedRight{
+	font: 14px helvetica, sans-serif;
+	font-style: italic;
+	float: right;
+}
+p.contact{
+    font: 12px helvetica, sans-serif;
+	text-indent: 25px;
+	padding-bottom: 10px;
+}
+
+/* footer */
+#wrapper #footer{
+	float: right;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+/* images */
+img.left{
+	float: left;
+	margin: 3px;
+}
+img.right{
+	float: right;
+	margin-left: 3px;
+}
+img.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* navBar */
+.navBar{
+	font: 14px helvetica, sans-serif;
+	position: relative;
+	margin: auto;
+	height: 34px; 
+	width: 1080px;
+}
+.navBar ul{
+	font-weight: bold;
+	list-style: none; 
+	position: absolute; 
+	z-index: 100; 
+	padding: 0px 5px;
+}
+.navBar li{
+	float: left;
+}
+.navBar a, .navBar a:active, .navBar a:visited{
+	text-decoration: none; 
+	color: #FFF; 
+	padding: 10px;
+}
+.navBar a:hover{
+	color: #888
+}
+
+/*The slider to show the current/hovered-over page*/
+#underline{
+	position: absolute; 
+	bottom: 2px; 
+	height: 4px; 
+	background: #CCC; 
+	z-index: 10;
+}
